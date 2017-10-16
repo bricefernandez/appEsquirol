@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('express-sequelize');
+var debug = require('debug')('backend-esquirol');
 var http = require('http');
 var models = require('../models');
 
@@ -13,7 +13,7 @@ var models = require('../models');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '8080');
 app.set('port', port);
   /**
    * Create HTTP server.
